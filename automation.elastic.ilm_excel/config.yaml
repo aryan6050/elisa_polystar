@@ -1,0 +1,36 @@
+use_case_engine_attributes:
+  ssl: False
+  api_uri: "http://100.64.80.43/api/ae-service/graphql"
+  uri: "http://100.64.80.43/api/user-management/login"
+  username: "admin"
+  password: "wkSwkS#2024"
+elasticsearch_attributes:
+# # vfal instance details:
+#   host: "elastic.vfal.upm.internal"
+#   port: 9200
+#   scheme: "http"
+#   username: "elastic"
+#   password: "dLtnrJHPfpFmCVMNaZKLfMEsahSFQgmXSduv"
+#   elasticsearch.shardTimeout: 60000
+
+# vfuk instance:
+  host: "100.64.96.38"
+  port: 9200
+  scheme: "http"
+  username: "elastic"
+  password: "XTxCJQJmsZuM9p6gP9A8PsRwA89G"
+  elasticsearch.shardTimeout: 60000
+
+# # upm instance details:
+#   host: "100.64.96.30"
+#   port: 9200
+#   scheme: "http"
+#   username: "elastic"
+#   password: "ZWZkNWU1NjczODc5Mzc0MmRjYj"
+
+# # vfgr instance details:
+#   host: "elastic.vfgr.upm.internal"
+#   port: 9200
+#   scheme: "http"
+#   username: "elastic"
+#   password: "RiYiLwhbCFKtnJTjZHsTVKttfQVQhYgNyhwi"
